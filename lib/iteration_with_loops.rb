@@ -16,7 +16,7 @@ lowest_temp = 200
       end
       min_temp_array << lowest_temp
       row_index += 1
-    
+
     end
 
 min_temp_array
