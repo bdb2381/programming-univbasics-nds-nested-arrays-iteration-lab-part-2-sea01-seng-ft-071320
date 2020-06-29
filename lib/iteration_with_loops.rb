@@ -12,7 +12,7 @@ lowest_temp = 200
             lowest_temp = src[row_index][element_index]
           end
         element_index += 1
-          puts "inner loop went through #{lowest_temp}"
+          puts "inner loop lowest_temp #{lowest_temp}"
       end
       min_temp_array << lowest_temp
       row_index += 1
