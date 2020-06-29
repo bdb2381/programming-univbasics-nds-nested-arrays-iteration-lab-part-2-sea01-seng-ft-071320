@@ -19,6 +19,6 @@ min_temp_array = []
       row_index += 1
 
     end
-puts lowest_temp
+puts min_temp_array 
 min_temp_array
 end
