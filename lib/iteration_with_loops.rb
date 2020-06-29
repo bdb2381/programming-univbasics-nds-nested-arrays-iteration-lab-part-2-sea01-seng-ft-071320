@@ -9,12 +9,13 @@ lowest_temp = 200
       element_index = 0
       while element_index < src[row_index].length do
           if src[row_index][element_index] < lowest_temp
-          lowest_temp = src[row_index][element_index]
-        end
+            lowest_temp = src[row_index][element_index]
+          end
         element_index += 1
       end
       min_temp_array << lowest_temp
       row_index += 1
+      puts "outer loop went through #{row_index}"
     end
 
 min_temp_array
